@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    environment {
-        DOCKERHUB_CREDENTIALS = credentials('stir-docker-chris')
-    }
+    //environment {
+    //    DOCKERHUB_CREDENTIALS = credentials('stir-docker-chris')
+    //}
 
     stages {
         stage('Build') {
